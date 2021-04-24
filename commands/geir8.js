@@ -6,7 +6,7 @@ exports.run = (client, message, args) => {
   var randColor = colors[Math.floor(Math.random() * colors.length)];
   var randNumber = Math.floor(Math.random() * 100) + 1 
     const embed = new MessageEmbed()
-    .setAuthor('🏳️‍🌈 Gay 🏳️‍🌈')
+    .setAuthor('🏳️‍🌈 GayR8 🏳️‍🌈')
     .setColor(randColor)
     .addField('Gay Rate', `<@${user.id}> is ${randNumber}% gay`, true)
     .setFooter(message.member.displayName, message.author.displayAvatarURL())
@@ -14,7 +14,5 @@ exports.run = (client, message, args) => {
 
 
 message.channel.send(embed)
-exports.config = {
-    aliases: ["sex", "fuck"]
-  }
+
   }

@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     const embed = new MessageEmbed()
     .setAuthor('😈 Murder 😈')
     .setColor(randColor)
-    .addField('Death Note', `${message.author} has taken a fat shit on <@${user.id}>'s head.`, true)
+    .addField('Death Note', `${message.author} has taken a fat poop on <@${user.id}>'s head.`, true)
     .setFooter(message.member.displayName, message.author.displayAvatarURL())
     .setTimestamp()
     
